@@ -2,16 +2,34 @@
 
 1.1 Creating conda enviroment
 
-    conda create -n alien_invasion python=3.11
+    conda create -name task_api
 
 1.2 Ativate conda enviroment
 
-    conda activate alien_invasion
+    conda activate task_api
 
-1.3 Installing pygame lib
+1.2 Installing django rest framework
 
-    pip install pygame
+    conda install django
+
+    conda install djangorestframework
 
 
+
+
+
+**2.1.API with Django DRF**
+
+2.1 Creating app
+
+    django-admin startproject taskmanager
+
+    python manage.py startapp tasks
+
+2.3 Migration
+
+    python manage.py makemigrations
+
+    python manage.py migrate
 
 
