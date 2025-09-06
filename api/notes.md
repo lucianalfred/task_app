@@ -33,3 +33,11 @@
     python manage.py migrate
 
 
+
+    python manage.py runserver
+
+2.4 Creating the views
+
+
+
+
